@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+
+<body>
+    <h2>Formulário de Cadastro</h2>
+    <form action="form-login.html" method="post">
+        <table>
+
+            <tr>
+                <td>Nome</td>
+                <td><input type="text" name="nome" id="nome" placeholder="nome" required="true"></td>
+            </tr>
+            <tr>
+                <td>Sobrenome</td>
+                <td><input type="text" name="sobrenome" id="nome" placeholder="sobrenome" required="true"></td>
+            </tr>
+            <tr>
+                <td>Endereço</td>
+                <td><textarea name="endereco" id="enderoco" cols="22" rows="4" required="true"></textarea></td>
+
+            </tr>
+            <tr>
+                <td>Disciplinas</td>
+                <td>
+                    <div>
+                        <input type="checkbox" value="programacao" id="programacao">
+                        <label for="programacao">
+                            Programação
+                        </label>
+
+                    </div>
+                    <div>
+                        <input type="checkbox" value="logica" id="logica">
+                        <label for="logica">
+                            Lógica
+                        </label>
+
+                    </div>
+                    <div>
+                        <input type="checkbox" value="algoritmos" id="algoritmos">
+                        <label for="algoritmos">
+                            Algoritmos
+                        </label>
+
+                    </div>
+                    <div>
+                        <input type="checkbox" value="banco" id="bancoDados">
+                        <label for="bancoDados">
+                            Banco de Dados
+                        </label>
+                    </div>
+                    <div>
+                        <input type="checkbox" value="mobile" id="mobile">
+                        <label for="mobile">
+                            Mobile
+                        </label>
+                    </div>
+
+                </td>
+
+            </tr>
+            <tr>
+                <td>Gênero</td>
+                <td>
+
+                    <input type="radio" id="naoinformar" name="naoinformar" value="naoinformar">
+                    <label for="naoinformar">Não informar</label><br>
+                </td>
+                <td>
+
+                    <input type="radio" id="masculino" name="masculino" value="Masculino">
+                    <label for="html">Masculino</label><br>
+                </td>
+                <td>
+
+                    <input type="radio" id="feminino" name="feminino" value="feminino">
+                    <label for="html">Feminino</label><br>
+                </td>
+
+
+            </tr>
+            <tr>
+                <td>Idade</td>
+                <td>
+                    <input type="number" id="html" name="masculino" value="Masculino">
+
+                </td>
+            </tr>
+            <tr>
+                <td>Foto de Perfil</td>
+                <td><input type="file" name="foto" id="foto"></td>
+            </tr>
+
+
+            <tr>
+                <td><input type="submit" id="submit" name="submit" value="cadastrar"></td>
+                <td><input type="reset"  name="submit" value="limpar"></td>
+            </tr>
+        </table>
+    </form>
+
+
+
+</body>
+
+</html>
